@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+.leftbar {
+    position: fixed;
+    background-color: black;
+    color: #b3b3b3;
+    height: 100vw;
+    width: 9%;
+    text-align: center;
+}
+.leftbar_menu {
+    margin-top: 20px;
+}
+.leftbar_menu ul li {
+    /* margin-bottom: 30px; */
+    list-style: none;
+    border-bottom: 1px solid #b3b3b3;
+}
+.leftbar_menu ul {
+    padding: 0;
+}
+.leftbar_menu ul li p:hover {
+    color: white;
+}
+.container {
+    position: relative;
+    width: 73%;
+
+    left: 9%;
+    margin-left: 9%;
+}
+.header {
+    text-align: center;
+    padding-top: 2%;
+}
+.header .container h1 {
+    margin: 0%;
+    padding: 0;
+}
+.lorem_container {
+    background-color: #b3b3b3;
+    height: 300px;
+    margin-top: 3%;
+    text-align: center;
+    align-items: center;
+}
+.title_lorem {
+    padding-top: 4%;
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+.content_lorem {
+    width: 50%;
+    display: inline-block;
+}
+.lorem_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 2%;
+}
+.lorem_img {
+    width: 90px;
+    height: 100px;
+    /* overflow: hidden; */
+    object-fit: cover;
+}
+img {
+    float: left;
+    padding-right: 16px;
+}
+.lorem_list-content {
+    /* display: flex; */
+    float: right;
+}
+.container__logo {
+}
